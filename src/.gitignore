@@ -1,0 +1,30 @@
+# Ignore compiled class files
+*.class
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore package files (JAR, WAR, EAR)
+*.jar
+*.war
+*.ear
+
+# Ignore the VSCode workspace settings
+.vscode/
+
+# Ignore build directories (for Maven/Gradle)
+target/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary or backup files
+*.swp
+*.bak
+*.tmp
+
+# Ignore settings related to Java language servers or extensions in VSCode
+.settings/
